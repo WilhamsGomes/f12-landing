@@ -1,0 +1,43 @@
+.geradorOn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.cassino{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gerador, .resultado{
+    height: 250px;
+    min-width: 250px;
+    border: 2px solid #00e526;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.geradorOn button{
+    width: 180px;
+    height: 30px;
+    background-color: #00e526;
+}
+
+.cassino span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.gerador p{
+    margin-top: 30px;
+}

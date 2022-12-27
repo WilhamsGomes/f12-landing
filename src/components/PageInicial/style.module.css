@@ -1,0 +1,27 @@
+.inicial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.textPrincipal h1{
+    max-width: 650px;
+    font-size: 6rem;
+}
+
+.textPrincipal span{
+    color: #00e526;
+}
+
+.textPrincipal{
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, #00e526, #000);
+    border-image-slice: 1;
+}
+
+@media screen and (max-width: 1000px) {
+    .inicial{
+        flex-direction: column;
+    }
+}

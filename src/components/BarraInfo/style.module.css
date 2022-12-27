@@ -1,0 +1,11 @@
+.barraInfo{
+    width: 100%;
+    color: #fff;
+    background-color: #00e526;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+    letter-spacing: 5px;
+}

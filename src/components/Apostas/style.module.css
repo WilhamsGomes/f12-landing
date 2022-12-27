@@ -1,0 +1,36 @@
+.apostas{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+table {
+    margin-top: 20px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 600px;
+}
+  
+td, th {
+    border: 1px solid #00e526;
+    text-align: left;
+    padding: 8px;
+}
+
+button{
+    width: 80px;
+    height: 20px;
+    border-radius: 15px;
+    border: none;
+    margin: 5px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+button:hover{
+    cursor: pointer;
+}
